@@ -11,4 +11,10 @@ bot.on('ready' => {
     bot.user.setGame('Online Bois!')
 });
 
+// When someone wrote something
+client.on("message", async message => {
+    // Call the Manager! "/commands/main.js"
+    Messages.ManageMessage(message, config.prefix);
+});
+
 bot.login(config.token)
