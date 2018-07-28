@@ -4,6 +4,6 @@
   "description": "A bot to test new commands.",
   "main": "bot.js",
   "engines": {
-    "node": "8.x",
+    "node": "8.11.3",
     "npm": "*"
  }
