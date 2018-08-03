@@ -1,6 +1,6 @@
 // Load's discord.js and defines bot
-const Discord = require('discord.js')
-const bot = new Discord.client()
+const Discord = require('discord.js');
+const bot = new Discord.Client();
 
 //Defines Config
 const config = ('./config.json')
@@ -12,9 +12,9 @@ bot.on('ready' => {
 });
 
 // When someone wrote something
-client.on("message", async message => {
+bot.on("message", async message => {
     // Call the Manager! "/commands/main.js"
     Messages.ManageMessage(message, config.prefix);
 });
 
-bot.login(config.token)
+bot.login(process.env.Token);
