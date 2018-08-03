@@ -6,7 +6,7 @@ const bot = new Discord.Client();
 const config = ('./config.json')
 
 //Set's the bot's game
-bot.on('ready' => {
+bot.on("ready" => {
     console.log('I am logged in as ${bot.user.tag}')
     bot.user.setGame('Online Bois!')
 });
