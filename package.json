@@ -1,9 +1,31 @@
 {
-  "name": "testing-bot-uno",
+  "name": "discord.js-heroku",
   "version": "1.0.0",
-  "description": "A bot to test new commands.",
-  "main": "bot.js",
+  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
+  "main": "index.js",
   "engines": {
-    "node": "8.11.3",
+    "node": "8.x",
     "npm": "*"
- }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AustinCreates154/jijdsiaojisd"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "synicalsyntax",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
+}
