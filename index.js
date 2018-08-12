@@ -1,7 +1,7 @@
 const discord = require('discord.js'),
 const bot = new discord.Client(),
-const config = require('./config.json'),
-const prefix = "vb!",
+config = require('./config.json'),
+prefix = "vb!",
 bot.login(process.env.token);
 
 // ===Loading commands===
