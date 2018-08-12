@@ -21,7 +21,7 @@ require('fs').readdir("./commands/", (err, files) => {
 bot.on('guildMemberAdd', (member) => require('./events/guildMemberAdd.js')(bot, member))
 
 bot.on('ready', () => {
-    bot.user.setActivity('Over violot brush', {type: "WATCHING"})
+    bot.user.setActivity({'Over violot brush', {type: "WATCHING"})
     
     
     console.log('Ready')
