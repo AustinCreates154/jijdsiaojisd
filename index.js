@@ -1,5 +1,5 @@
 const discord = require('discord.js'),
-const bot = new discord.Client(),
+client = new discord.Client(),
 config = require('./config.json'),
 prefix = "vb!",
 bot.login(process.env.token);
