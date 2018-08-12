@@ -25,4 +25,4 @@ bot.on('ready', () => {
     
     
     console.log('Ready')
-}
+})
