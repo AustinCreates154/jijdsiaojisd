@@ -18,7 +18,6 @@ require('fs').readdir("./commands/", (err, files) => {
 
 // ===Done Loading commands===
 
-bot.on('guildMemberAdd', (member) => require('./events/guildMemberAdd.js')(bot, member))
 
 bot.on('ready', () => {
     bot.user.setActivity({'Over violot brush', {type: "WATCHING"})
